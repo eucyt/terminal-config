@@ -37,5 +37,9 @@ config.window_decorations = "RESIZE"
 -- mouse binds
 config.mouse_bindings = require('mousebinds').mouse_bindings
 
+-- window size
+config.initial_rows = 48
+config.initial_cols = 160
+
 return config
 
