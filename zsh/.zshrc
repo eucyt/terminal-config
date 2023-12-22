@@ -49,3 +49,5 @@ alias vim='nvim'
 # starship
 eval "$(starship init zsh)"
 
+source $HOME/.zshrc
+
