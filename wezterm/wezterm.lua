@@ -10,12 +10,6 @@ if wezterm.config_builder then
   config = wezterm.config_builder()
 end
 
--- keybinds
-config.disable_default_key_bindings = true
-config.keys = require('keybinds').keys
-config.key_tables = require('keybinds').key_tables
-config.leader = { key = ",", mods = "CTRL", timeout_milliseconds = 2000 }
-
 -- colors
 config.color_scheme = "nord"
 config.window_background_opacity = 0.93
@@ -33,9 +27,6 @@ config.status_update_interval = 1000
 
 -- window decorations
 config.window_decorations = "RESIZE"
-
--- mouse binds
-config.mouse_bindings = require('mousebinds').mouse_bindings
 
 -- window size
 config.initial_rows = 48
