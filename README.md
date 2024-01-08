@@ -7,10 +7,8 @@
 - zsh
 - lazygit
   - git管理の可視化
-- fzf (Optional)
+- fzf
   - 曖昧な検索ができる
-- ghq (Optional)
-  - ctrl ] でレポジトリ検索
 
 ```shell
 # zshで設定を読み込むようにする。場合によってはsudo vim /etc/zsh/zshenv
