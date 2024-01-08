@@ -1,3 +1,15 @@
+## Install
+
+あらかじめ以下が導入されている必要がある
+- git
+- neovim
+- zsh
+- fzf (Optional)
+  - 曖昧な検索ができる
+- ghq (Optional)
+  - ctrl ] でレポジトリ検索
+- lazygit (Optional)
+  - git管理の可視化
 
 ```shell
 # zshで設定を読み込むようにする
