@@ -12,7 +12,7 @@
   - git管理の可視化
 
 ```shell
-# zshで設定を読み込むようにする
+# zshで設定を読み込むようにする。場合によってはsudo vim /etc/zsh/zshenv
 % sudo vim /etc/zshenv
 ZDOTDIR=$HOME/.config/zsh
 % exec $SHELL
